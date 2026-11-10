@@ -1,0 +1,34 @@
+{
+  "scenario": "a1-town-walk",
+  "bootFrame": 2,
+  "lastGoldenFrame": 750,
+  "strictHorizon": 2,
+  "posHorizon": 2,
+  "matchedKernelFrames": 0,
+  "bootCheck": null,
+  "firstDivergence": {
+    "frame": 3,
+    "key": "step",
+    "id": null,
+    "field": "<unported D2Game:0x6FC4E050>",
+    "expected": "frame simulated by the original game",
+    "actual": "unported D2Game:0x6FC4E050 (diff-verified): GAME_UpdateGameFrame is implemented by stepFallenSliceFrame113c in src/d2kern-113c/game/fallen-ai-113c.ts, which reaches legacy code (src/d2kern-113c/game/fallen-ai-113c.ts -> src/common/path/index.ts)"
+  },
+  "firstPosDivergence": {
+    "frame": 3,
+    "key": "step",
+    "id": null,
+    "field": "<unported D2Game:0x6FC4E050>",
+    "expected": "frame simulated by the original game",
+    "actual": "unported D2Game:0x6FC4E050 (diff-verified): GAME_UpdateGameFrame is implemented by stepFallenSliceFrame113c in src/d2kern-113c/game/fallen-ai-113c.ts, which reaches legacy code (src/d2kern-113c/game/fallen-ai-113c.ts -> src/common/path/index.ts)"
+  },
+  "unportedHit": {
+    "frame": 3,
+    "key": "D2Game:0x6FC4E050",
+    "status": "diff-verified",
+    "reason": "GAME_UpdateGameFrame is implemented by stepFallenSliceFrame113c in src/d2kern-113c/game/fallen-ai-113c.ts, which reaches legacy code (src/d2kern-113c/game/fallen-ai-113c.ts -> src/common/path/index.ts)"
+  },
+  "context": [],
+  "goldenSha256": "8980c9909cf0d5ce16e33de6d13175b36b98cf2d897f72fe4c18670471ce10d5",
+  "snapshotSha256": "972e9b9b2f5fc812889097de9c8a5654bc892f359674ab53f30c84f3c6b825d4"
+}

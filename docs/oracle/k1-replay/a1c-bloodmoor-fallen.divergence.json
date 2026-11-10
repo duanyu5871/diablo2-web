@@ -1,0 +1,34 @@
+{
+  "scenario": "a1c-bloodmoor-fallen",
+  "bootFrame": 2,
+  "lastGoldenFrame": 2000,
+  "strictHorizon": 2,
+  "posHorizon": 2,
+  "matchedKernelFrames": 0,
+  "bootCheck": null,
+  "firstDivergence": {
+    "frame": 3,
+    "key": "step",
+    "id": null,
+    "field": "<unported D2Game:0x6FC4E050>",
+    "expected": "frame simulated by the original game",
+    "actual": "unported D2Game:0x6FC4E050 (diff-verified): GAME_UpdateGameFrame is implemented by stepFallenSliceFrame113c in src/d2kern-113c/game/fallen-ai-113c.ts, which reaches legacy code (src/d2kern-113c/game/fallen-ai-113c.ts -> src/common/path/index.ts)"
+  },
+  "firstPosDivergence": {
+    "frame": 3,
+    "key": "step",
+    "id": null,
+    "field": "<unported D2Game:0x6FC4E050>",
+    "expected": "frame simulated by the original game",
+    "actual": "unported D2Game:0x6FC4E050 (diff-verified): GAME_UpdateGameFrame is implemented by stepFallenSliceFrame113c in src/d2kern-113c/game/fallen-ai-113c.ts, which reaches legacy code (src/d2kern-113c/game/fallen-ai-113c.ts -> src/common/path/index.ts)"
+  },
+  "unportedHit": {
+    "frame": 3,
+    "key": "D2Game:0x6FC4E050",
+    "status": "diff-verified",
+    "reason": "GAME_UpdateGameFrame is implemented by stepFallenSliceFrame113c in src/d2kern-113c/game/fallen-ai-113c.ts, which reaches legacy code (src/d2kern-113c/game/fallen-ai-113c.ts -> src/common/path/index.ts)"
+  },
+  "context": [],
+  "goldenSha256": "8d8bda946c74066879f3047dbe839d6abbb093dba7eba2c07bfb18852eb13224",
+  "snapshotSha256": "e863b267b2e7548227463e094fabb397c4c3e3f277b91359baeaeebbe814053d"
+}
