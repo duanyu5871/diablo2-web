@@ -1,0 +1,407 @@
+[
+  {
+    "module": "D2Game",
+    "va": "0x6FC22630",
+    "name": "STORM_TSListArrayResize_6FC22630",
+    "kernFile": "src/d2kern-113c/game/k2-w4b3-113c.ts",
+    "tsSymbol": "STORM_TSListArrayResize_6FC22630_113c",
+    "status": "ported",
+    "diffEvidence": "Unit verification in tests/oracle/k2/w4b3.test.ts"
+  },
+  {
+    "module": "D2Game",
+    "va": "0x6FC304F0",
+    "name": "ITEMS_FallbackToMagicQualityAndRollAffixes_6FC304F0",
+    "kernFile": "src/d2kern-113c/game/k2-w4b3-113c.ts",
+    "tsSymbol": "ITEMS_FallbackToMagicQualityAndRollAffixes_6FC304F0_113c",
+    "status": "ported",
+    "diffEvidence": "Unit verification in tests/oracle/k2/w4b3.test.ts"
+  },
+  {
+    "module": "D2Game",
+    "va": "0x6FC30600",
+    "name": "ITEMS_ApplyTypeSpecificCreatedItemMods_6FC30600",
+    "kernFile": "src/d2kern-113c/game/k2-w4b3-113c.ts",
+    "tsSymbol": "ITEMS_ApplyTypeSpecificCreatedItemMods_6FC30600_113c",
+    "status": "ported",
+    "diffEvidence": "Unit verification in tests/oracle/k2/w4b3.test.ts"
+  },
+  {
+    "module": "D2Game",
+    "va": "0x6FC30730",
+    "name": "ITEMS_FallbackToRareQualityAndRollAffixes_6FC30730",
+    "kernFile": "src/d2kern-113c/game/k2-w4b3-113c.ts",
+    "tsSymbol": "ITEMS_FallbackToRareQualityAndRollAffixes_6FC30730_113c",
+    "status": "ported",
+    "diffEvidence": "Unit verification in tests/oracle/k2/w4b3.test.ts"
+  },
+  {
+    "module": "D2Game",
+    "va": "0x6FC31A70",
+    "name": "ITEMS_RollAndDropItemByTypeAtUnit_6FC31A70",
+    "kernFile": "src/d2kern-113c/game/k2-w4b3-113c.ts",
+    "tsSymbol": "ITEMS_RollAndDropItemByTypeAtUnit_6FC31A70_113c",
+    "status": "ported",
+    "diffEvidence": "Unit verification in tests/oracle/k2/w4b3.test.ts"
+  },
+  {
+    "module": "D2Game",
+    "va": "0x6FC32230",
+    "name": "ITEMS_SpawnRandomRoomDropAtCoords_6FC32230",
+    "kernFile": "src/d2kern-113c/game/k2-w4b3-113c.ts",
+    "tsSymbol": "ITEMS_SpawnRandomRoomDropAtCoords_6FC32230_113c",
+    "status": "ported",
+    "diffEvidence": "Unit verification in tests/oracle/k2/w4b3.test.ts"
+  },
+  {
+    "module": "D2Game",
+    "va": "0x6FC32DF0",
+    "name": "ITEMS_AddPlayerGoldOrDropOverflow_6FC32DF0",
+    "kernFile": "src/d2kern-113c/game/k2-w4b3-113c.ts",
+    "tsSymbol": "ITEMS_AddPlayerGoldOrDropOverflow_6FC32DF0_113c",
+    "status": "ported",
+    "diffEvidence": "Unit verification in tests/oracle/k2/w4b3.test.ts"
+  },
+  {
+    "module": "D2Game",
+    "va": "0x6FC354F0",
+    "name": "ITEMS_RollRareAffixesByFormat_6FC354F0",
+    "kernFile": "src/d2kern-113c/game/k2-w4b3-113c.ts",
+    "tsSymbol": "ITEMS_RollRareAffixesByFormat_6FC354F0_113c",
+    "status": "ported",
+    "diffEvidence": "Unit verification in tests/oracle/k2/w4b3.test.ts"
+  },
+  {
+    "module": "D2Game",
+    "va": "0x6FC43650",
+    "name": "MONUMOD_SpectralHitMissileDamage_6FC43650",
+    "kernFile": "src/d2kern-113c/game/k2-w4b3-113c.ts",
+    "tsSymbol": "MONUMOD_SpectralHitMissileDamage_6FC43650_113c",
+    "status": "ported",
+    "diffEvidence": "Unit verification in tests/oracle/k2/w4b3.test.ts"
+  },
+  {
+    "module": "D2Game",
+    "va": "0x6FC43BF0",
+    "name": "MONUMOD_PropagatePackDeathToBoss_6FC43BF0",
+    "kernFile": "src/d2kern-113c/game/k2-w4b3-113c.ts",
+    "tsSymbol": "MONUMOD_PropagatePackDeathToBoss_6FC43BF0_113c",
+    "status": "ported",
+    "diffEvidence": "Unit verification in tests/oracle/k2/w4b3.test.ts"
+  },
+  {
+    "module": "D2Game",
+    "va": "0x6FC43CA0",
+    "name": "MONUMOD_RollChampionOrUniqueUMods_6FC43CA0",
+    "kernFile": "src/d2kern-113c/game/k2-w4b3-113c.ts",
+    "tsSymbol": "MONUMOD_RollChampionOrUniqueUMods_6FC43CA0_113c",
+    "status": "ported",
+    "diffEvidence": "Unit verification in tests/oracle/k2/w4b3.test.ts"
+  },
+  {
+    "module": "D2Game",
+    "va": "0x6FC44BF0",
+    "name": "MONUMOD_PromoteToBossWithSingleUMod_6FC44BF0",
+    "kernFile": "src/d2kern-113c/game/k2-w4b3-113c.ts",
+    "tsSymbol": "MONUMOD_PromoteToBossWithSingleUMod_6FC44BF0_113c",
+    "status": "ported",
+    "diffEvidence": "Unit verification in tests/oracle/k2/w4b3.test.ts"
+  },
+  {
+    "module": "D2Game",
+    "va": "0x6FC4BC90",
+    "name": "GAME_AssignUniqueGameName_6FC4BC90",
+    "kernFile": "src/d2kern-113c/game/k2-w4b3-113c.ts",
+    "tsSymbol": "GAME_AssignUniqueGameName_6FC4BC90_113c",
+    "status": "ported",
+    "diffEvidence": "Unit verification in tests/oracle/k2/w4b3.test.ts"
+  },
+  {
+    "module": "D2Game",
+    "va": "0x6FC57F80",
+    "name": "PLRTRADE_DropPlayerInventoryGold_6FC57F80",
+    "kernFile": "src/d2kern-113c/game/k2-w4b3-113c.ts",
+    "tsSymbol": "PLRTRADE_DropPlayerInventoryGold_6FC57F80_113c",
+    "status": "ported",
+    "diffEvidence": "Unit verification in tests/oracle/k2/w4b3.test.ts"
+  },
+  {
+    "module": "D2Game",
+    "va": "0x6FC5AAA0",
+    "name": "MISSILE_SrvDmg_ApplyOwnerDmgPercentAndDemonUndeadBonus_6FC5AAA0",
+    "kernFile": "src/d2kern-113c/game/k2-w4b3-113c.ts",
+    "tsSymbol": "MISSILE_SrvDmg_ApplyOwnerDmgPercentAndDemonUndeadBonus_6FC5AAA0_113c",
+    "status": "ported",
+    "diffEvidence": "Unit verification in tests/oracle/k2/w4b3.test.ts"
+  },
+  {
+    "module": "D2Game",
+    "va": "0x6FC5BBB0",
+    "name": "MISSILE_SrvDmg_TriggerQuest24PortalSpawnOnExpire_6FC5BBB0",
+    "kernFile": "src/d2kern-113c/game/k2-w4b3-113c.ts",
+    "tsSymbol": "MISSILE_SrvDmg_TriggerQuest24PortalSpawnOnExpire_6FC5BBB0_113c",
+    "status": "ported",
+    "diffEvidence": "Unit verification in tests/oracle/k2/w4b3.test.ts"
+  },
+  {
+    "module": "D2Game",
+    "va": "0x6FC5F670",
+    "name": "MISSILE_SrvDo_LinearQuest24PortalTrigger_6FC5F670",
+    "kernFile": "src/d2kern-113c/game/k2-w4b3-113c.ts",
+    "tsSymbol": "MISSILE_SrvDo_LinearQuest24PortalTrigger_6FC5F670_113c",
+    "status": "ported",
+    "diffEvidence": "Unit verification in tests/oracle/k2/w4b3.test.ts"
+  },
+  {
+    "module": "D2Game",
+    "va": "0x6FC5F7D0",
+    "name": "MISSILE_SrvDo_TriggerChargedAuraInDurationWindow_6FC5F7D0",
+    "kernFile": "src/d2kern-113c/game/k2-w4b3-113c.ts",
+    "tsSymbol": "MISSILE_SrvDo_TriggerChargedAuraInDurationWindow_6FC5F7D0_113c",
+    "status": "ported",
+    "diffEvidence": "Unit verification in tests/oracle/k2/w4b3.test.ts"
+  },
+  {
+    "module": "D2Game",
+    "va": "0x6FC7C480",
+    "name": "ACT5Q4_AdvanceObjectToMonsterSpawn_6FC7C480",
+    "kernFile": "src/d2kern-113c/game/k2-w4b3-113c.ts",
+    "tsSymbol": "ACT5Q4_AdvanceObjectToMonsterSpawn_6FC7C480_113c",
+    "status": "ported",
+    "diffEvidence": "Unit verification in tests/oracle/k2/w4b3.test.ts"
+  },
+  {
+    "module": "D2Game",
+    "va": "0x6FC7C5C0",
+    "name": "ACT5Q3_SpawnMonster202AndAttachQuestData_6FC7C5C0",
+    "kernFile": "src/d2kern-113c/game/k2-w4b3-113c.ts",
+    "tsSymbol": "ACT5Q3_SpawnMonster202AndAttachQuestData_6FC7C5C0_113c",
+    "status": "ported",
+    "diffEvidence": "Unit verification in tests/oracle/k2/w4b3.test.ts"
+  },
+  {
+    "module": "D2Game",
+    "va": "0x6FC7C690",
+    "name": "ACT5Q3_SpawnFrozenAnyaAndObject189_6FC7C690",
+    "kernFile": "src/d2kern-113c/game/k2-w4b3-113c.ts",
+    "tsSymbol": "ACT5Q3_SpawnFrozenAnyaAndObject189_6FC7C690_113c",
+    "status": "ported",
+    "diffEvidence": "Unit verification in tests/oracle/k2/w4b3.test.ts"
+  },
+  {
+    "module": "D2Game",
+    "va": "0x6FC7E3C0",
+    "name": "ACT5Q5_OnArreatSummitPortalResetAncients_6FC7E3C0",
+    "kernFile": "src/d2kern-113c/game/k2-w4b3-113c.ts",
+    "tsSymbol": "ACT5Q5_OnArreatSummitPortalResetAncients_6FC7E3C0_113c",
+    "status": "ported",
+    "diffEvidence": "Unit verification in tests/oracle/k2/w4b3.test.ts"
+  },
+  {
+    "module": "D2Game",
+    "va": "0x6FC7E420",
+    "name": "ACT5Q5_ActivateAncientStatueAndSpawnMonster_6FC7E420",
+    "kernFile": "src/d2kern-113c/game/k2-w4b3-113c.ts",
+    "tsSymbol": "ACT5Q5_ActivateAncientStatueAndSpawnMonster_6FC7E420_113c",
+    "status": "ported",
+    "diffEvidence": "Unit verification in tests/oracle/k2/w4b3.test.ts"
+  },
+  {
+    "module": "D2Game",
+    "va": "0x6FC7EB30",
+    "name": "ACT5Q3_RegisterAnyaObjectAndSpawnMonster200_6FC7EB30",
+    "kernFile": "src/d2kern-113c/game/k2-w4b3-113c.ts",
+    "tsSymbol": "ACT5Q3_RegisterAnyaObjectAndSpawnMonster200_6FC7EB30_113c",
+    "status": "ported",
+    "diffEvidence": "Unit verification in tests/oracle/k2/w4b3.test.ts"
+  },
+  {
+    "module": "D2Game",
+    "va": "0x6FC82D30",
+    "name": "ACT1Q1_SendAlert01IfQuest01Active_6FC82D30",
+    "kernFile": "src/d2kern-113c/game/k2-w4b3-113c.ts",
+    "tsSymbol": "ACT1Q1_SendAlert01IfQuest01Active_6FC82D30_113c",
+    "status": "ported",
+    "diffEvidence": "Unit verification in tests/oracle/k2/w4b3.test.ts"
+  },
+  {
+    "module": "D2Game",
+    "va": "0x6FC82D90",
+    "name": "ACT1Q0_InitQuestDescriptor_6FC82D90",
+    "kernFile": "src/d2kern-113c/game/k2-w4b3-113c.ts",
+    "tsSymbol": "ACT1Q0_InitQuestDescriptor_6FC82D90_113c",
+    "status": "ported",
+    "diffEvidence": "Unit verification in tests/oracle/k2/w4b3.test.ts"
+  },
+  {
+    "module": "D2Game",
+    "va": "0x6FC82FA0",
+    "name": "ACT1_InitCainIntroQuestDescriptor_6FC82FA0",
+    "kernFile": "src/d2kern-113c/game/k2-w4b3-113c.ts",
+    "tsSymbol": "ACT1_InitCainIntroQuestDescriptor_6FC82FA0_113c",
+    "status": "ported",
+    "diffEvidence": "Unit verification in tests/oracle/k2/w4b3.test.ts"
+  },
+  {
+    "module": "D2Game",
+    "va": "0x6FC83000",
+    "name": "ACT1Q6_SyncCompletionForPlayerOutsideAct1_6FC83000",
+    "kernFile": "src/d2kern-113c/game/k2-w4b3-113c.ts",
+    "tsSymbol": "ACT1Q6_SyncCompletionForPlayerOutsideAct1_6FC83000_113c",
+    "status": "ported",
+    "diffEvidence": "Unit verification in tests/oracle/k2/w4b3.test.ts"
+  },
+  {
+    "module": "D2Game",
+    "va": "0x6FC830D0",
+    "name": "ACT1Q6_SyncCompletionInCatacombs4_6FC830D0",
+    "kernFile": "src/d2kern-113c/game/k2-w4b3-113c.ts",
+    "tsSymbol": "ACT1Q6_SyncCompletionInCatacombs4_6FC830D0_113c",
+    "status": "ported",
+    "diffEvidence": "Unit verification in tests/oracle/k2/w4b3.test.ts"
+  },
+  {
+    "module": "D2Game",
+    "va": "0x6FC83CC0",
+    "name": "ACT1_InitAkaraIntroQuestDescriptor_6FC83CC0",
+    "kernFile": "src/d2kern-113c/game/k2-w4b3-113c.ts",
+    "tsSymbol": "ACT1_InitAkaraIntroQuestDescriptor_6FC83CC0_113c",
+    "status": "ported",
+    "diffEvidence": "Unit verification in tests/oracle/k2/w4b3.test.ts"
+  },
+  {
+    "module": "D2Game",
+    "va": "0x6FC860D0",
+    "name": "ACT1Q4_SpawnGriswoldInTristram_6FC860D0",
+    "kernFile": "src/d2kern-113c/game/k2-w4b3-113c.ts",
+    "tsSymbol": "ACT1Q4_SpawnGriswoldInTristram_6FC860D0_113c",
+    "status": "ported",
+    "diffEvidence": "Unit verification in tests/oracle/k2/w4b3.test.ts"
+  },
+  {
+    "module": "D2Game",
+    "va": "0x6FC89EE0",
+    "name": "OBJ_CalcShrineStatBonusValue_6FC89EE0",
+    "kernFile": "src/d2kern-113c/game/k2-w4b3-113c.ts",
+    "tsSymbol": "OBJ_CalcShrineStatBonusValue_6FC89EE0_113c",
+    "status": "ported",
+    "diffEvidence": "Unit verification in tests/oracle/k2/w4b3.test.ts"
+  },
+  {
+    "module": "D2Game",
+    "va": "0x6FC8A4E0",
+    "name": "OBJ_SpawnRandomMonsterTrapFromObject_6FC8A4E0",
+    "kernFile": "src/d2kern-113c/game/k2-w4b3-113c.ts",
+    "tsSymbol": "OBJ_SpawnRandomMonsterTrapFromObject_6FC8A4E0_113c",
+    "status": "ported",
+    "diffEvidence": "Unit verification in tests/oracle/k2/w4b3.test.ts"
+  },
+  {
+    "module": "D2Game",
+    "va": "0x6FC8A720",
+    "name": "OBJ_TryOperateObjectIfInRange_6FC8A720",
+    "kernFile": "src/d2kern-113c/game/k2-w4b3-113c.ts",
+    "tsSymbol": "OBJ_TryOperateObjectIfInRange_6FC8A720_113c",
+    "status": "ported",
+    "diffEvidence": "Unit verification in tests/oracle/k2/w4b3.test.ts"
+  },
+  {
+    "module": "D2Game",
+    "va": "0x6FC8B280",
+    "name": "OBJ_OperateFn20_WeaponRack_6FC8B280",
+    "kernFile": "src/d2kern-113c/game/k2-w4b3-113c.ts",
+    "tsSymbol": "OBJ_OperateFn20_WeaponRack_6FC8B280_113c",
+    "status": "ported",
+    "diffEvidence": "Unit verification in tests/oracle/k2/w4b3.test.ts"
+  },
+  {
+    "module": "D2Game",
+    "va": "0x6FC8B2E0",
+    "name": "OBJ_OperateFn19_ArmorStand_6FC8B2E0",
+    "kernFile": "src/d2kern-113c/game/k2-w4b3-113c.ts",
+    "tsSymbol": "OBJ_OperateFn19_ArmorStand_6FC8B2E0_113c",
+    "status": "ported",
+    "diffEvidence": "Unit verification in tests/oracle/k2/w4b3.test.ts"
+  },
+  {
+    "module": "D2Game",
+    "va": "0x6FC8B6F0",
+    "name": "OBJ_DropChestLootFromObjectUnit_6FC8B6F0",
+    "kernFile": "src/d2kern-113c/game/k2-w4b3-113c.ts",
+    "tsSymbol": "OBJ_DropChestLootFromObjectUnit_6FC8B6F0_113c",
+    "status": "ported",
+    "diffEvidence": "Unit verification in tests/oracle/k2/w4b3.test.ts"
+  },
+  {
+    "module": "D2Game",
+    "va": "0x6FC8B860",
+    "name": "OBJ_SpawnMonster369FromObject_6FC8B860",
+    "kernFile": "src/d2kern-113c/game/k2-w4b3-113c.ts",
+    "tsSymbol": "OBJ_SpawnMonster369FromObject_6FC8B860_113c",
+    "status": "ported",
+    "diffEvidence": "Unit verification in tests/oracle/k2/w4b3.test.ts"
+  },
+  {
+    "module": "D2Game",
+    "va": "0x6FC8B870",
+    "name": "OBJ_SpawnMonster329FromObject_6FC8B870",
+    "kernFile": "src/d2kern-113c/game/k2-w4b3-113c.ts",
+    "tsSymbol": "OBJ_SpawnMonster329FromObject_6FC8B870_113c",
+    "status": "ported",
+    "diffEvidence": "Unit verification in tests/oracle/k2/w4b3.test.ts"
+  },
+  {
+    "module": "D2Game",
+    "va": "0x6FC8B880",
+    "name": "OBJ_SpawnMonster326FromObject_6FC8B880",
+    "kernFile": "src/d2kern-113c/game/k2-w4b3-113c.ts",
+    "tsSymbol": "OBJ_SpawnMonster326FromObject_6FC8B880_113c",
+    "status": "ported",
+    "diffEvidence": "Unit verification in tests/oracle/k2/w4b3.test.ts"
+  },
+  {
+    "module": "D2Game",
+    "va": "0x6FC8B890",
+    "name": "OBJ_SpawnMonster330FromObject_6FC8B890",
+    "kernFile": "src/d2kern-113c/game/k2-w4b3-113c.ts",
+    "tsSymbol": "OBJ_SpawnMonster330FromObject_6FC8B890_113c",
+    "status": "ported",
+    "diffEvidence": "Unit verification in tests/oracle/k2/w4b3.test.ts"
+  },
+  {
+    "module": "D2Game",
+    "va": "0x6FC8CE10",
+    "name": "OBJ_OperateFn48_TrappedSoul_6FC8CE10",
+    "kernFile": "src/d2kern-113c/game/k2-w4b3-113c.ts",
+    "tsSymbol": "OBJ_OperateFn48_TrappedSoul_6FC8CE10_113c",
+    "status": "ported",
+    "diffEvidence": "Unit verification in tests/oracle/k2/w4b3.test.ts"
+  },
+  {
+    "module": "D2Game",
+    "va": "0x6FC8D7B0",
+    "name": "OBJ_OperateFn28_Urn_6FC8D7B0",
+    "kernFile": "src/d2kern-113c/game/k2-w4b3-113c.ts",
+    "tsSymbol": "OBJ_OperateFn28_Urn_6FC8D7B0_113c",
+    "status": "ported",
+    "diffEvidence": "Unit verification in tests/oracle/k2/w4b3.test.ts"
+  },
+  {
+    "module": "D2Game",
+    "va": "0x6FC90CF0",
+    "name": "CUBE_ValidateAllRecipeInputSlots_6FC90CF0",
+    "kernFile": "src/d2kern-113c/game/k2-w4b3-113c.ts",
+    "tsSymbol": "CUBE_ValidateAllRecipeInputSlots_6FC90CF0_113c",
+    "status": "ported",
+    "diffEvidence": "Unit verification in tests/oracle/k2/w4b3.test.ts"
+  },
+  {
+    "module": "D2Game",
+    "va": "0x6FC90D90",
+    "name": "PLRTRADE_TryInitiatePlayerTrade_6FC90D90",
+    "kernFile": "src/d2kern-113c/game/k2-w4b3-113c.ts",
+    "tsSymbol": "PLRTRADE_TryInitiatePlayerTrade_6FC90D90_113c",
+    "status": "ported",
+    "diffEvidence": "Unit verification in tests/oracle/k2/w4b3.test.ts"
+  }
+]
